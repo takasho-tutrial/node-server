@@ -1,0 +1,27 @@
+{
+  "name": "node-server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pug src/template/pug/*.pug -o src/template/html",
+    "prestart": "npm run build",
+    "start": "node src/app.js",
+    "test": "eslint . --cache"
+  },
+  "repository": "git+https://github.com/takasho-tutrial/node-server.git",
+  "keywords": [],
+  "author": "taka-sho <takasho530000@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/takasho-tutrial/node-server/issues"
+  },
+  "homepage": "https://github.com/takasho-tutrial/node-server#readme",
+  "devDependencies": {
+    "@takasho/eslint-config": "^0.0.3",
+    "eslint": "^3.4.0",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.0",
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}
