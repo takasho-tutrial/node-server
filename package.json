@@ -5,10 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "pug src/template/pug/*.pug -o src/template/html",
-    "lint": "eslint . --cache",
     "prestart": "npm run build",
     "start": "node src/app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint . --cache"
   },
   "repository": "git+https://github.com/takasho-tutrial/node-server.git",
   "keywords": [],
