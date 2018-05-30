@@ -18,10 +18,10 @@
   },
   "homepage": "https://github.com/takasho-tutrial/node-server#readme",
   "devDependencies": {
-    "@takasho/eslint-config": "^0.0.3",
-    "eslint": "^3.4.0",
-    "fs": "^0.0.1-security",
-    "http": "^0.0.0",
-    "pug-cli": "^1.0.0-alpha6"
+    "@takasho/eslint-config": "0.0.3",
+    "eslint": "3.19.0",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "pug-cli": "1.0.0-alpha6"
   }
 }
