@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/takasho-tutrial/node-server#readme",
   "devDependencies": {
-    "@takasho/eslint-config": "0.0.3",
+    "@takasho/eslint-config": "0.0.10",
     "eslint": "3.19.0",
     "fs": "0.0.2",
     "http": "0.0.0",
